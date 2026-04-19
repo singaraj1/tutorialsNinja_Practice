@@ -21,8 +21,8 @@ public class RegistraionPage extends BaseTest {
 		
 		driver.findElement(By.id("input-firstname")).sendKeys("Raj");
 		driver.findElement(By.id("input-lastname")).sendKeys("S");
-		//driver.findElement(By.id("input-email")).sendKeys("demotestT@gmail.com");
-		driver.findElement(By.id("input-email")).sendKeys(bs.emailGen());
+		driver.findElement(By.id("input-email")).sendKeys("demotestT@gmail.com");
+		//driver.findElement(By.id("input-email")).sendKeys(bs.emailGen());
 		driver.findElement(By.id("input-telephone")).sendKeys("1234567890");
 		driver.findElement(By.xpath("//input[@type=\"password\"]")).sendKeys("Hello@123");
 		driver.findElement(By.xpath("//input[@name=\"confirm\"]")).sendKeys("Hello@123");

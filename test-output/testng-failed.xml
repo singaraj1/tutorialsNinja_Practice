@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.Tc_002">
+      <class name="testCases.RegistraionPage">
         <methods>
           <include name="setup"/>
-          <include name="testwithoutinput"/>
+          <include name="registraionwithmandatoryField"/>
         </methods>
-      </class> <!-- testCases.Tc_002 -->
+      </class> <!-- testCases.RegistraionPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
